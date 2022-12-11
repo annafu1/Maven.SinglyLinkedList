@@ -17,7 +17,7 @@ public class Node<T> {
 
     @Override
     public String toString() {
-        return "Node{" + "data=" + data + ", next=" + pointer + '}';
+        return "Node{" + "data = " + data + ", next = " + pointer + '}';
     }
 
     public T getData() {
